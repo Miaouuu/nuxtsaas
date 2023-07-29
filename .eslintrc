@@ -1,0 +1,7 @@
+{
+  "extends": ["@nuxtjs/eslint-config-typescript", "prettier", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "vue/no-multiple-template-root": "off"
+  }
+}

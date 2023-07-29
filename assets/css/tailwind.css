@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+@layer components {
+  html {
+    @apply scroll-smooth selection:bg-accent-500 selection:text-white;
+  }
+
+  body {
+    @apply bg-white;
+  }
+}
